@@ -1,0 +1,9 @@
+{
+  "name" : "kinetic-graphs",
+  "scripts" : [ "index.js" ],
+  "styles" : [ "kinetic-graphs.css" ],
+  "dependencies": {
+    "matthewmueller/io": "*",
+    "matthewmueller/time-series": "*"
+  }
+}
