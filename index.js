@@ -34,10 +34,10 @@ window.addEventListener('devicemotion', function(e) {
  * Set up the graphs
  */
 
-var aLine = Series(document.querySelector('.graph.a')).scale('1s').line().color('#0299FD');
-var xLine = Series(document.querySelector('.graph.x')).scale('1s').line().color('#0299FD');
-var yLine = Series(document.querySelector('.graph.y')).scale('1s').line().color('#0299FD');
-var zLine = Series(document.querySelector('.graph.z')).scale('1s').line().color('#0299FD');
+var aLine = Series(document.querySelector('.graph.a')).scale('60s').line().color('#0299FD');
+var xLine = Series(document.querySelector('.graph.x')).scale('60s').line().color('#0299FD');
+var yLine = Series(document.querySelector('.graph.y')).scale('60s').line().color('#0299FD');
+var zLine = Series(document.querySelector('.graph.z')).scale('60s').line().color('#0299FD');
 
 io.on('a', function(a) {
   aLine.add(a);
